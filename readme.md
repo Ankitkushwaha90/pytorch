@@ -1,3 +1,5 @@
+### card predictions
+### https://www.kaggle.com/code/robikscube/train-your-first-pytorch-model-card-classifier/notebook
 ### TFLite
 ### Conversion to TFJS
 https://colab.research.google.com/drive/1eiUBpmQ4m7Lbxqi2xth1jBaL61XTKdxp?usp=sharing#scrollTo=Asq_Sgh7cJnN
