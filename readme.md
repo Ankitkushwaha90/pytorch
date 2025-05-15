@@ -25,6 +25,15 @@ print("Multiplication:", mul_result)
 matmul_result = torch.matmul(a, b)
 print("Matrix Multiplication:", matmul_result)
 ```
+output:
+```css
+Addition: tensor([[ 6,  8],
+        [10, 12]])
+Multiplication: tensor([[ 5, 12],
+        [21, 32]])
+tensor.matmul(a,b): tensor([[19, 22],
+        [43, 50]])
+```
 ### 2. Simple Linear Regression in PyTorch
 ```python
 import torch
@@ -57,6 +66,19 @@ for epoch in range(1000):
     
     if epoch % 100 == 0:
         print(f'Epoch {epoch}, Loss: {loss.item()}')
+```
+output:
+```css
+Epoch 0, Loss: 26.56081771850586
+Epoch 100, Loss: 0.15807457268238068
+Epoch 200, Loss: 0.0011534926015883684
+Epoch 300, Loss: 1.821882506192196e-05
+Epoch 400, Loss: 6.570607524736261e-07
+Epoch 500, Loss: 3.002816839625666e-08
+Epoch 600, Loss: 1.474006805501915e-09
+Epoch 700, Loss: 9.106045778528582e-11
+Epoch 800, Loss: 9.106045778528582e-11
+Epoch 900, Loss: 9.106045778528582e-11
 ```
 ### 3. Neural Network for Classification (Using Sequential API)
 ```python
